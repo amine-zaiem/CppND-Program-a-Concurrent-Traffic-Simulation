@@ -1,3 +1,3 @@
-/home/mzm/cpluspluscourse/concurrency/original/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles/rebuild_cache.dir
-/home/mzm/cpluspluscourse/concurrency/original/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles/traffic_simulation.dir
-/home/mzm/cpluspluscourse/concurrency/original/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles/edit_cache.dir
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles/rebuild_cache.dir
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles/traffic_simulation.dir
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles/edit_cache.dir

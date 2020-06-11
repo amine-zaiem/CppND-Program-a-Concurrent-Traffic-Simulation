@@ -112,16 +112,7 @@ void TrafficLight::cycleThroughPhases()
             }
 
             // send msg to the queue
-            // _queue.send(std::move(_trafficLightPhase));
-            auto future =
-                    std::async(
-                       std::launch::async,
-                       &MessageQueue<TrafficLightPhase>::send,
-                       &_queue,
-                       std::move( _trafficLightPhase )
-                              );
-
-            future.wait();
+            _queue.send(std::move(_trafficLightPhase)); // Modified after review
 
             lastUpdate = std::chrono::system_clock::now();
 

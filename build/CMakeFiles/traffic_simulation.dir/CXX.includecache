@@ -6,7 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/home/mzm/cpluspluscourse/concurrency/original/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficLight.cpp
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/src/Intersection.cpp
+iostream
+-
+thread
+-
+chrono
+-
+future
+-
+random
+-
+Street.h
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/src/Street.h
+Intersection.h
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/src/Intersection.h
+Vehicle.h
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/src/Vehicle.h
+
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/src/Intersection.h
+vector
+-
+future
+-
+mutex
+-
+memory
+-
+TrafficObject.h
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.h
+TrafficLight.h
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficLight.h
+
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/src/Street.h
+TrafficObject.h
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.h
+
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficLight.cpp
 iostream
 -
 random
@@ -16,9 +52,9 @@ thread
 future
 -
 TrafficLight.h
-/home/mzm/cpluspluscourse/concurrency/original/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficLight.h
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficLight.h
 
-/home/mzm/cpluspluscourse/concurrency/original/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficLight.h
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficLight.h
 mutex
 -
 deque
@@ -26,13 +62,17 @@ deque
 condition_variable
 -
 TrafficObject.h
-/home/mzm/cpluspluscourse/concurrency/original/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.h
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.h
 
-/home/mzm/cpluspluscourse/concurrency/original/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.h
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.h
 vector
 -
 thread
 -
 mutex
 -
+
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/src/Vehicle.h
+TrafficObject.h
+/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.h
 

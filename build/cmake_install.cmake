@@ -1,4 +1,4 @@
-# Install script for directory: /home/mzm/cpluspluscourse/concurrency/original/CppND-Program-a-Concurrent-Traffic-Simulation
+# Install script for directory: /home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mzm/cpluspluscourse/concurrency/original/CppND-Program-a-Concurrent-Traffic-Simulation/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/workspace/upload_github/CppND-Program-a-Concurrent-Traffic-Simulation/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
