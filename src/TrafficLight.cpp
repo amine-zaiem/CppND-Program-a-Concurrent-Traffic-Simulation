@@ -81,10 +81,18 @@ void TrafficLight::cycleThroughPhases()
     // to the message queue using move semantics. The cycle duration should be a random value between 4 and 6 seconds. 
     // Also, the while-loop should use std::this_thread::sleep_for to wait 1ms between two cycles.
 
-    int Min = 4000;
-    int Max = 6000;
+    double Min = 4000.0;
+    double Max = 6000.0;
 
-    auto randomCycleDur = std::rand() % (Max + 1000 - Min) + Min;
+    //auto randomCycleDur = std::rand() % (Max + 1000 - Min) + Min;
+
+      // Generating random number between two value taken from :
+      //https://stackoverflow.com/questions/12657962/how-do-i-generate-a-random-number-between-two-variables-that-i-have-stored
+    std::random_device rd;
+    std::mt19937 eng(rd());
+    std::uniform_real_distribution<> distr(Min, Max);
+    
+    auto randomCycleDur = distr(eng);
 
     // update
     auto lastUpdate = std::chrono::system_clock::now();
@@ -93,7 +101,7 @@ void TrafficLight::cycleThroughPhases()
     {
 
         // sleep for 1 ms
-        std::this_thread::sleep_for(std::chrono::milliseconds(1));
+        //std::this_thread::sleep_for(std::chrono::milliseconds(1));
 
         uint32_t lastUpdateDuration =
                 std::chrono::duration_cast<std::chrono::milliseconds>(
